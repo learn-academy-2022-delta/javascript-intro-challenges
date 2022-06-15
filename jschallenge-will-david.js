@@ -5,11 +5,20 @@ console.log(34 + 71) //105
 console.log(67 - 123) //-56
 
 // Write the code that will log the outcome of 56 multiplied by 23.
-console.log(56 * 23)
+console.log(56 * 23) //1288
+
 // Write the code that will log the outcome of 45 divided by 5.
+console.log(45 / 5) //9 
+
 // Write the code that will log the outcome of 5 to the power of 7.
+console.log(5 ** 7) // 78125
+
 // Write the code that will log the whole number remainder of 33 divided by 6.
+console.log(33 % 6) // 3
+
 // Write the code that will log the length of a string containing your name.
+var myName = "Will" 
+console.log(myName.length) // 4
 // Write the code that will log whether your string includes the letter "e"?
 // Write the code that will log the character at the first index of the string.
 // Write the code that will log the string in all uppercase letters.
