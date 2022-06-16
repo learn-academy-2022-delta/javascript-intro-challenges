@@ -30,10 +30,26 @@ for(let i=0; i<numbers.length; i++){
 const nums = [3, 57, -9, 20, 67]
 
 // Create the code that will log the largest number from the array.
-for(let i=0; i=67; i++){
-    if(nums[i] !== 67){
-        console.log(nums[i])
+// for(let i=0; i<nums.length; i++){
+//     if(nums[i] = 67){
+//         nums.sort((a, b) => a - b)
+//         console.log(nums)
+//         console.log(nums[i])
+//     }
+// }
+
+for(let i=0; i<nums.length; i++){
+    if(nums = 67){
+
     }
+    // //nums.sort((a, b) => a - b);
+    // console.log(nums)
+    // //nums.sort
+    // function myArrayMax(nums) {
+    //     return Math.max.apply(nums);
+    //     console.log(myArrayMax)
+    // }
+    //console.log(max(nums[i]))
 }
 
 // Create the code that will log the smallest number from the array.
