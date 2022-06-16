@@ -47,20 +47,22 @@ console.log(newNumbers.concat(numbers))
 
 var numSet = [2, 13, 6, 8, 4, 2]
 //Write the code that finds the index of the first appearance of the number 2.
-
+console.log(numSet [0])
 //Write the code that finds the index of the last appearance of the number 2.
-
+console.log(numSet.lastIndexOf(2))
 //Write the code that returns the number at the third index.
-
+console.log(numSet[3])
 //Consider the variable:
 
 var characters = ["y", "a", "r", "r", "a"]
 //Write the code that brings all the letters in the characters array together into a string.
-
+console.log(characters.join(""))
 //Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
-
+let charsReversed = (characters.reverse())
+console.log(charsReversed)
 //Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
-
+const numsArray [5, 6, 7, 8, 9]
+for(let i = o; i<numsArray,length)
 //Write the code that brings all the letters in the charsReversed array together into a string without separators.
 
 //Create two arrays consisting of three first names of your cohort members in each.
