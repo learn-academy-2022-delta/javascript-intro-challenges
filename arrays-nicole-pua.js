@@ -90,10 +90,10 @@ var group2 = ["Luis", "Samuel", "Ricky"]
 console.log((group1.concat(group2)).sort())
 
 // Write the code that sorts the names in reverse alphabetical order.
-
+console.log((group1.concat(group2)).sort()).reverse()
 
 // Write the code that sorts all the names in alphabetical order in a single array.
-
+console.log((group1.concat(group2)).sort())
 // Consider the variables:
 
 var numbers = [42, 221, 71, 7, 18, 87]
