@@ -20,7 +20,7 @@ var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 const oddNum = (array) => {
     let result = []
     for(let i=0; i < array.length; i++){
-        if(array[i] % 2 === 1){
+        if(array[i] % 2 !== 0){
             result.push(array[i]) 
         }
     }
@@ -28,6 +28,38 @@ const oddNum = (array) => {
 }
 
 console.log(oddNum(testArr2))
+//console.log(-7 % 2 === 1)
 
 //Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
+// var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+// --> "nicework"
 
+var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
+
+const onlyLetters = (array) => {
+    let result = []
+    for(let i=0; i<array.length; i++) {
+    if(typeof array[i] === "string") {
+        result.push(array[i])
+    }
+}
+return result
+}
+console.log(onlyLetters(comboArr))
+
+
+//Create a function that takes in an array of numbers and returns the sum.
+var addThese1 = [1, 2, 3, 4]
+// --> 10
+
+var addThese2 = []
+// --> 0
+
+let numSum = []
+for(let i=0; i<array.length; i++) {
+    result.push(array[i] +)
+}
+
+
+//console.log
+//console.log
