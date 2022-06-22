@@ -66,6 +66,8 @@ const divi = (num1, num2) => {
 console.log(divi(20,5))
 
 
+/////TESRRRR
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
