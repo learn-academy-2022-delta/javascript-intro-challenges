@@ -16,14 +16,15 @@ const greeting = (Venessa) => {
 
 // 3 - Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
 
-for(let i=0; i <10; i++) 
+for(let i=0; i <10; i+=1) 
    // if(i % 2 === 1) 
         console.log ("odd")
 
 
 
-const oddOrEven = (odd, Even) => {
-    if
+
+// const oddOrEven = (odd, Even) => {
+//     if
 // }
 
 
